@@ -3,13 +3,213 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Pet Store Home</title>
+	<title>Drew Holcomb Portfolio</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Bungee|Cabin" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 </head>
-<body>
-	
+<body data-spy="scroll" data-target=".navbar">
+
+	<div class="container-fluid"><!--=====================HEADER CONTAINER===============================-->
+		<div class="row"><!--=====================HEADER ROW===============================-->
+			<!--=====================NAV BAR==========================-->
+			<nav class="navbar navbar-default navbar-fixed-top">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <p><a href="#">Drew Holc < /></a></p>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav navbar-right">
+			        <li class="active"><a href="#">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#projects">Projects</a></li>
+							<li><a href="#contact">Contact Me</a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+			<!--=====================END OF NAV BAR==========================-->
+			<div class="jumbotron text-center home"> <!--========JUMBOTRON============-->
+				<div class="col-md-5 col-centered">
+					<h1>Drew Holcomb</h1>
+					<p style="font-size:24px;">Entry-Level Programmer</p>
+					<div class="animation_typing">
+	          <p class="css-typing">Hi I'm Drew.</p>
+	          <p class="css-typing">I have a 3 month old son, Kais.</p>
+	          <p class="css-typing">And a 3 year old Husky-Pitbull mix, Carter.</p>
+	          <p class="css-typing">Recently transitioned into programming</p>
+	          <p class="css-typing">You can see my progress on this page.<span class="pillar_sign">|</span></p>
+	      </div>
+			</div>
+			</div> <!--========END OF JUMBOTRON============-->
+		</div><!--=====================END OF HEADER ROW===============================-->
+	</div><!--=====================END OF HEADER CONTAINER===============================-->
+
+	<div class="container-fluid"><!--=====================BODY CONTAINER FLUID=================================-->
+		<div class="row"><!--=====================BODY ROW=================================-->
+			<div class="container" id="about"><!--=====================ID ABOUT CONTAINER=================================-->
+				<div class="row aboutRow">
+					<div class="col-md-12 text-center">
+						<h2>About</h2>
+					</div>
+				</div>
+				<div class="row schoolWork"><!--=====================SCHOOL/WORK ROW=================================-->
+					<div class="col-md-6 text-center"><!--==================SCHOOL COL========================-->
+						<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam odit, odio repudiandae dolore laborum modi eveniet quos eaque dolorum ipsam commodi alias sit enim deleniti ducimus qui, distinctio dolorem a.</p>
+						<p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">School</button></p>
+					</div><!--==================END OF SCHOOL COL========================-->
+					<div class="col-md-6 text-center"><!--==================WORK COL========================-->
+						<i class="fa fa-laptop" aria-hidden="true"></i>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid eius ipsa quibusdam exercitationem facilis similique, ab unde reprehenderit deleniti magnam. Adipisci commodi, amet aliquam quis est ad quae enim necessitatibus?</p>
+						<p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal2">Work</button></p>
+					</div><!--==================END OF WORK COL========================-->
+				</div><!--=====================END OF SCHOOL/WORK ROW=================================-->
+			</div><!--=====================END OF ID ABOUT CONTAINER=================================-->
+			<div class="container" id="projects"><!--=====================ID PROJECTS CONTAINER=================================-->
+				<div class="row"><!--=====================PROJECTS ROW=================================-->
+					<div class="col-md-10 col-centered"><!--=====================PROJECTS COL=================================-->
+						<h2 class="text-center">Projects</h2>
+						<div class="row thumbs"><!--=====================TUMBNAIL ROW=================================-->
+						  <div class="col-md-4"><!--===THUMBNAIL 1=====-->
+						    <div class="thumbnail">
+						      <img src="http://fillmurray.com/300/200" alt="Fill Murray">
+						      <div class="caption">
+						        <h3>Architecture Website</h3>
+						        <p>5 year architect located in NYC.</p>
+						      </div>
+						    </div>
+						  </div><!--===END OF THUMBNAIL 1=====-->
+							<div class="col-md-4"><!--===THUMBNAIL 2=====-->
+						    <div class="thumbnail">
+						      <img src="http://fillmurray.com/300/200" alt="Fill Murray">
+						      <div class="caption">
+						        <h3>Restaurant Webpage</h3>
+						        <p>Mock restaurant website</p>
+						      </div>
+						    </div>
+						  </div><!--===END OF THUMBNAIL 2=====-->
+							<div class="col-md-4"><!--===THUMBNAIL 3=====-->
+						    <div class="thumbnail">
+						      <img src="http://fillmurray.com/300/200" alt="Fill Murray">
+						      <div class="caption">
+						        <h3>Pet Store</h3>
+						        <p>Mock pet store website</p>
+						      </div>
+						    </div>
+						  </div><!--===END OF THUMBNAIL 3=====-->
+							<div class="col-md-4"><!--===THUMBNAIL 4=====-->
+						    <div class="thumbnail">
+						      <img src="http://fillmurray.com/300/200" alt="Fill Murray">
+						      <div class="caption">
+						        <h3>Code Player</h3>
+						        <p>Input code on left, output shows on right.</p>
+						      </div>
+						    </div>
+						  </div><!--===END OF THUMBNAIL 4=====-->
+							<div class="col-md-4"><!--===THUMBNAIL 5=====-->
+						    <div class="thumbnail">
+						      <img src="http://fillmurray.com/300/200" alt="Fill Murray">
+						      <div class="caption">
+						        <h3>Awesome App</h3>
+						        <p>Mock app website</p>
+						      </div>
+						    </div>
+						  </div><!--===END OF THUMBNAIL 5=====-->
+							<div class="col-md-4"><!--===THUMBNAIL 6=====-->
+						    <div class="thumbnail">
+						      <img src="http://fillmurray.com/300/200" alt="Fill Murray">
+						      <div class="caption">
+						        <h3>Reaction Test</h3>
+						        <p>Javascript reaction test</p>
+						      </div>
+						    </div>
+						  </div><!--===END OF THUMBNAIL 6=====-->
+						</div><!--=====================END OF THUMBNAIL ROW=================================-->
+					</div><!--===END OF PROJECTS COL=====-->
+				</div><!--=====================END OF PROJECTS ROW=================================-->
+			</div><!--=====================END OF ID PROJECTS CONTAINER================================-->
+		</div><!--=====================END OF BODY ROW=================================-->
+	</div><!--=====================END OF BODY CONTAINER FLUID=================================-->
+
+	<div class="container-fluid footer"><!--=====================FOOTER CONTAINER FLUID===========================-->
+		<div class="row"><!--==============================FOOTER ROW====================================-->
+			<div class="container" id="contact"><!--=====================FOOTER CONTAINER INNER===========================-->
+				<div class="row">
+					<div class="col-md-6"><!--CONTACT ME-->
+						<h1>Contact Me</h1> <br>
+						<p>Currently looking for front-end developing job or freelance project. Please <a href="mailto:drew.a.holcomb@gmail.com?Subject=Hello%20again" target="_top">email</a> me to get in touch.</p> <br>
+						<p>If you would like to discuss employment opportunity, please feel free to contact me.</p>
+					</div><!--END OF CONTACT ME-->
+					<div class="col-md-4 col-md-offset-2"><!--============SOCIAL MEDIA LINKS================-->
+						<div class="row icons">
+							<a href="http://stackoverflow.com/users/4913404/drew-holcomb" target="_blank"><i class="fa fa-stack-overflow fa-5x" aria-hidden="true"></i></a>
+							<a href="https://angel.co/drew-holcomb" target="_blank"<i class="fa fa-angellist" aria-hidden="true"></i></a>
+							<a href="https://github.com/drewholc" target="_blank"<i class="fa fa-github" aria-hidden="true"></i></a>
+							<a href="http://codepen.io/drewholc/" target="_blank"<i class="fa fa-codepen" aria-hidden="true"></i></a>
+							<a href="https://www.linkedin.com/in/drew-holcomb-96a0862b" target="_blank"<i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+						</div>
+						<div class="row">
+							<p>Email: <a href="mailto:drew.a.holcomb@gmail.com?Subject=Hello%20again" target="_top">drew.a.holcomb@gmail.com</a></p>
+						</div>
+					</div><!--============END OF SOCIAL MEDIA LINKS================-->
+			</div>
+		</div><!--=====================END OF FOOTER CONTAINER INNER===========================-->
+		</div><!--==============================END OF FOOTER ROW====================================-->
+	</div><!--=====================END OF FOOTER CONTAINER FLUID===========================-->
+<!--==========================MODAL===================================-->
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Project 1</h4>
+      </div>
+      <div class="modal-body">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Project 2</h4>
+      </div>
+      <div class="modal-body">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--=================================END OF MODALS===============================-->
+
+
+
+
+
 </body>
 </html>
