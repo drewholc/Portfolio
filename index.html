@@ -10,6 +10,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Bungee|Cabin" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
 </head>
 <body data-spy="scroll" data-target=".navbar">
@@ -27,13 +29,13 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			      </button>
-			      <p><a href="#">Drew Holc < /></a></p>
+			      <p><a href="#home">Drew Holc < /></a></p>
 			    </div>
 
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav navbar-right">
-			        <li class="active"><a href="#">Home</a></li>
+			        <li class="active"><a href="#home">Home</a></li>
 							<li><a href="#about">About</a></li>
 							<li><a href="#projects">Projects</a></li>
 							<li><a href="#contact">Contact Me</a></li>
@@ -42,7 +44,7 @@
 			  </div><!-- /.container-fluid -->
 			</nav>
 			<!--=====================END OF NAV BAR==========================-->
-			<div class="jumbotron text-center home"> <!--========JUMBOTRON============-->
+			<div class="jumbotron text-center" id="home"> <!--========JUMBOTRON============-->
 				<div class="col-md-5 col-centered">
 					<h1>Drew Holcomb</h1>
 					<p style="font-size:24px;">Entry-Level Programmer</p>
@@ -71,13 +73,13 @@
 						<i class="fa fa-graduation-cap" aria-hidden="true"></i>
 						<hr>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam odit, odio repudiandae dolore laborum modi eveniet quos eaque dolorum ipsam commodi alias sit enim deleniti ducimus qui, distinctio dolorem a.</p>
-						<p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">School</button></p>
+						<p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1"><span>School</span></button></p>
 					</div><!--==================END OF SCHOOL COL========================-->
 					<div class="col-md-6 text-center"><!--==================WORK COL========================-->
 						<i class="fa fa-laptop" aria-hidden="true"></i>
 						<hr>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid eius ipsa quibusdam exercitationem facilis similique, ab unde reprehenderit deleniti magnam. Adipisci commodi, amet aliquam quis est ad quae enim necessitatibus?</p>
-						<p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal2">Work</button></p>
+						<p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal2"><span>Work</span></button></p>
 					</div><!--==================END OF WORK COL========================-->
 				</div><!--=====================END OF SCHOOL/WORK ROW=================================-->
 			</div><!--=====================END OF ID ABOUT CONTAINER=================================-->
@@ -152,9 +154,9 @@
 			<div class="container" id="contact"><!--=====================FOOTER CONTAINER INNER===========================-->
 				<div class="row">
 					<div class="col-md-6"><!--CONTACT ME-->
-						<h1>Contact Me</h1> <br>
-						<p>Currently looking for front-end developing job or freelance project. Please <a href="mailto:drew.a.holcomb@gmail.com?Subject=Hello%20again" target="_top">email</a> me to get in touch.</p> <br>
-						<p>If you would like to discuss employment opportunity, please feel free to contact me.</p>
+						<h2>Contact Me</h2> <br>
+						<p style="font-size:18px;">Currently looking for front-end developing job or freelance project. Please <a href="mailto:drew.a.holcomb@gmail.com?Subject=Hello%20again" target="_top">email</a> me to get in touch.</p> <br>
+						<p style="font-size:14px;">If you would like to discuss employment opportunity, please feel free to contact me.</p>
 					</div><!--END OF CONTACT ME-->
 					<div class="col-md-4 col-md-offset-2"><!--============SOCIAL MEDIA LINKS================-->
 						<div class="row icons">
@@ -165,23 +167,33 @@
 							<a href="https://www.linkedin.com/in/drew-holcomb-96a0862b" target="_blank"<i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 						</div>
 						<div class="row">
-							<p>Email: <a href="mailto:drew.a.holcomb@gmail.com?Subject=Hello%20again" target="_top">drew.a.holcomb@gmail.com</a></p>
+							<p style="margin-left:20px;">Email: <a href="mailto:drew.a.holcomb@gmail.com?Subject=Hello%20again" target="_top">drew.a.holcomb@gmail.com</a></p>
 						</div>
 					</div><!--============END OF SOCIAL MEDIA LINKS================-->
-			</div>
-		</div><!--=====================END OF FOOTER CONTAINER INNER===========================-->
+				<div class="row">
+					<div class="col-md-12">
+						<footer class="text-center align-bottom">Designed and Coded by Drew Holcomb 2016</footer>
+					</div>
+				</div>
+				</div>
+			</div><!--=====================END OF FOOTER CONTAINER INNER===========================-->
 		</div><!--==============================END OF FOOTER ROW====================================-->
 	</div><!--=====================END OF FOOTER CONTAINER FLUID===========================-->
+
 <!--==========================MODAL===================================-->
 <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Project 1</h4>
+        <h4 class="modal-title" id="myModalLabel">School</h4>
       </div>
       <div class="modal-body">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				<ul>
+					<li>Geekwise Academy</li>
+					<li>MOOCs</li>
+					<li>UCSB</li>
+				</ul>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -194,10 +206,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Project 2</h4>
+        <h4 class="modal-title" id="myModalLabel">Work</h4>
       </div>
       <div class="modal-body">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				<ul>
+					<li>Self Employed</li>
+					<li>Fiore Di Pasta</li>
+					<li>42 West</li>
+				</ul>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
