@@ -33,7 +33,7 @@ body {
 
 /*===========================JUMBOTRON=========================*/
 .jumbotron {
-  height: 90vh;
+  height: 65em;
   background-image: url('../img/blur-background.jpg');
   background-attachment: fixed;
   background-size: cover;
@@ -57,8 +57,7 @@ h2 {
 
 .animation_typing{
   background-color: transparent;
-  margin-left:130px;
-  margin-top: 70px;
+  margin-top: 5em;
 }
 
 .css-typing {
@@ -125,7 +124,7 @@ h2 {
 
 /*==========================ABOUT=====================================*/
 #about {
-  height:65vh;
+  height:40em;
 }
 
 .fa {
@@ -148,8 +147,8 @@ hr {
   margin: 18px 0;
 }
 
-.btn-primary {
-  background-color: transparent;
+.btn-default {
+  background-color: white;
   border-color: black;
   color: black;
   transition: all 0.5s;
@@ -157,18 +156,18 @@ hr {
   margin: 5px;
 }
 
-.btn-primary:hover, .btn-primary:active, .btn-primary:after {
-  background-color: transparent;
+.btn-default:hover, .btn-default:active, .btn-default:after {
+  background-color: white;
 }
 
-.btn-primary span {
+.btn-default span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.btn-primary span:after {
+.btn-default span:after {
   content: '»';
   position: absolute;
   opacity: 0;
@@ -178,12 +177,12 @@ hr {
   color: black;
 }
 
-.btn-primary:hover span {
+.btn-default:hover span {
   padding-right: 25px;
   color: black;
 }
 
-.btn-primary:hover span:after {
+.btn-default:hover span:after {
   opacity: 1;
   right: 0;
 }
@@ -191,7 +190,11 @@ hr {
 /*==========================END OF ABOUT==============================*/
 
 /*==========================PROJECTS=================================*/
-.col-centered {
+#projects {
+  height:60em;
+}
+
+  .col-centered {
   float:none;
   margin: 0 auto;
 }
@@ -209,13 +212,12 @@ hr {
 
 /*==========================FOOTER===================================*/
 .footer {
-  height: 90vh;
+  height: 55em;
   background-image: url('../img/blur-background.jpg');
   background-attachment: fixed;
   background-size: cover;
   border-radius: 0px !important;
   color: #FFFFFF;
-  position: relative;
 }
 
 .kais {
@@ -235,10 +237,8 @@ a, a:hover, a:active, a:visited {
   margin-left: 50px;
 }
 
-.align-bottom {
-    position: absolute;
-    bottom: 0;
-    opacity: .5;
+#contact {
+  margin-top: 5em;
 }
 
 /*========================END OF FOOTER=============================*/
