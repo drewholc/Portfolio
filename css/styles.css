@@ -43,7 +43,7 @@ body {
 
 h1 {
   font-family: 'Bungee', cursive;
-  margin-top: 125px;
+  margin-top: 1em;
 }
 
 h2 {
@@ -209,12 +209,18 @@ hr {
 
 /*==========================FOOTER===================================*/
 .footer {
-  height: 35vh;
+  height: 90vh;
   background-image: url('../img/blur-background.jpg');
   background-attachment: fixed;
   background-size: cover;
   border-radius: 0px !important;
   color: #FFFFFF;
+  position: relative;
+}
+
+.kais {
+  border-radius: 100%;
+  margin-top: 25px;
 }
 
 a, a:hover, a:active, a:visited {
@@ -226,11 +232,13 @@ a, a:hover, a:active, a:visited {
 .icons {
   margin-top: 30px;
   margin-bottom: 5px;
+  margin-left: 50px;
 }
 
 .align-bottom {
-  margin-top: 50px;
-  opacity: .5;
+    position: absolute;
+    bottom: 0;
+    opacity: .5;
 }
 
 /*========================END OF FOOTER=============================*/
