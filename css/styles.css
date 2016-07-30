@@ -1,5 +1,5 @@
 body {
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /*===========================NAVBAR=========================*/
@@ -33,7 +33,7 @@ body {
 
 /*===========================JUMBOTRON=========================*/
 .jumbotron {
-  height: 65em;
+  height: 45em;
   background-image: url('../img/blur-background.jpg');
   background-attachment: fixed;
   background-size: cover;
@@ -208,11 +208,29 @@ hr {
   border: 0px;
   padding: 10px;
 }
+
+.bw {
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+
+.bw:hover {
+  -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+  filter: grayscale(0%);
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+.thumbnail .caption {
+  padding-left: 0px;
+}
 /*==========================END OF PROJECTS==========================*/
 
 /*==========================FOOTER===================================*/
 .footer {
-  height: 55em;
+  height: 45em;
   background-image: url('../img/blur-background.jpg');
   background-attachment: fixed;
   background-size: cover;
