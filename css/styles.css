@@ -196,7 +196,7 @@ hr {
 }
 
 .btn-default:focus, .btn-default:active, .btn-default:visited {
-  background-color: transparent;
+  background-color: #fff;
   outline: 0px;
 }
 
