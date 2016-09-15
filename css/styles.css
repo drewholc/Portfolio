@@ -278,6 +278,26 @@ a, a:hover, a:active, a:visited {
   text-decoration: none;
 }
 
+i.fa.fa-stack-overflow:hover {
+    color: #825F66;
+}
+
+i.fa.fa-angellist:hover {
+    color: #825F66;
+}
+
+i.fa.fa-github:hover {
+    color: #825F66;
+}
+
+i.fa.fa-codepen:hover {
+    color: #825F66;
+}
+
+i.fa.fa-linkedin-square:hover {
+    color: #825F66;
+}
+
 
 .icons {
   margin-top: 30px;
